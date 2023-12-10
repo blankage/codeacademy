@@ -1,0 +1,136 @@
+body {
+    background-color: #7FFFD4;
+    margin: 0;
+    font-family: "Lato";
+    color: #FFD700;
+}
+
+/* menu section */
+
+.header_title {
+    display: flex;
+    background-color:#000080;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_title {
+font-family: "bangers";
+font-size: 4em;
+display: flex;
+color: #FFD700;
+padding-left: 40px;
+}
+
+.main_menu {
+display: flex;
+margin-right: 20px;
+
+}
+li {
+    list-style-type: none;
+    padding: 0.5em;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "fredoka";
+    font-size: medium;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffd700;
+}
+
+/* introduction section */
+
+.intro_section {
+    display: flex;
+    background-image: url('images/samantha-gades-fIHozNWfcvs-unsplash.jpg');
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.intro_title {
+display: flex;
+background-color: rgba(0, 0, 0, 0.7);
+font-family: "bangers";
+padding: 3%;
+font-size: 2rem;
+}
+
+.intro_about {
+display: flex;
+margin: 40px;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 3%;
+}
+
+/* upcoming event section */
+
+.Upcoming_event {
+    color: #FF7F50;
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: solid;
+    border-radius: 10px;
+    border-color: #000080;
+
+}
+
+.event_details {
+ display: flex;
+}
+
+p {
+    margin: 20px;
+ }
+
+ /* image section */
+.image_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.image-container {
+    flex: 0 0 calc(33% - 20px);
+    margin-bottom: 20px;
+    align-items: stretch;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .main_title {
+        font-family: "bangers";
+        font-size: 2em;
+        display: flex;
+        color: #FFD700;
+        padding-left: 40px;
+        }
+.image_section {
+    display: none;
+}
+
+}
