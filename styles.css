@@ -1,0 +1,166 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: White;
+}
+
+header {
+    display:flex;
+    background-color: #C0C0C0;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.biz_logo img{
+    height: 90px;
+    width: 75px;
+    padding-left: 40px;
+}
+
+.navigation{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: center;
+    padding-right: 40px;
+}
+
+li {
+    display: inline;
+    padding: 7px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6A0DAD;
+    font-weight: 9000;
+}
+
+.image_gallery img{
+    height: 400px;
+    width: 420px;
+    margin: 15px;
+}
+
+.image_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+footer img{
+    align-items: center;
+    height: 150px;
+    align-self: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6A0DAD;
+    height: 200px;
+    width: 100%;
+   
+}
+
+.gallery_section {
+    height: auto;
+    width: 100%;
+    background-color: #0F0F0F;
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+ .gallery_title h2{
+    font-weight: bold;
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    color: #C0C0C0;
+    padding-top: 20px;
+}
+
+.gallery_title {
+    background-color: #0F0F0F;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px
+}
+
+.main_banner {
+
+    background-image: url("/images/nat-uN9OSpSsw4A-unsplash.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.slogan {
+    display: flex;
+    color: #C0C0C0;
+    opacity: 90%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 10px;
+    
+}
+.mission_statement {
+    display: flex;
+    color: #C0C0C0;
+    padding: 20px;
+    width: 200px;
+    align-self: start;
+    font-size: 1.1rem;
+}
+
+
+.the_team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid #0F0F0F;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #00CED1;
+    text-align: center; /* Center align text within the container */
+}
+
+.the_team h3 {
+    font-weight: bold; /* Make the title bold */
+}
+
+.team_member {
+    display: flex;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.team_photo img {
+    width: 100px; /* Adjust the width of the photos */
+    height: auto;
+    border-radius: 20%;
+    margin-right: 10px; /* Add margin for spacing */
+}
+
+b {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.team_bio p {
+    margin: 0;
+}
+
